@@ -2,7 +2,7 @@
 Generator for dadaistic song texts.
 
 The program creates a Markdown file containing a *Dadasong*, which is a song text consisting of two verses, two occurrences of a refrain and a bridge.
-What makes this concept special is that the text body is generated randomly, but similar to German words.
+What makes this concept special is that the text body is generated randomly, but similar to German words, so that - in theory - the text can be read syntactically (by a TTS engine like [MaryTTS](http://mary.dfki.de/)), but not understood semantically (the next paragraph explains why).
 Each word is created letter by letter with each next letter being the chosen by the probability of said letter to follow the previous one as seen in regular German words.
 An example output can be found under [target/dadasong.md](target/dadasong.md).
 
